@@ -7,7 +7,7 @@ $qrCode->setText('Life is too short to be generating QR codes');
 $qrCode->setSize(200);
 header('Content-Type: '.$qrCode->getContentType());
 echo $qrCode->writeString();
-//$qrCode->setPadding(10);
+$qrCode->setPadding(10);
 
 //$qrCode->render();
 
